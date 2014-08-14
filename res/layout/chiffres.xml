@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="18dp"
+    android:layout_marginRight="18dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical" >
+
+            <EditText
+               	android:id="@+id/option_input_numbers"
+               	android:layout_width="match_parent"
+               	android:layout_height="wrap_content"
+               	android:hint="@string/input_numbers_hint" />
+
+            <EditText
+               	android:id="@+id/option_output_number"
+               	android:layout_width="match_parent"
+               	android:layout_height="wrap_content"
+               	android:inputType="number"
+               	android:hint="@string/output_number_hint" />
+
+            <CheckBox
+                android:id="@+id/option_complex_ops"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/with_complex_ops" />
+
+            <Button
+                android:id="@+id/calculation_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/go_calculate" />
+            
+            <ProgressBar
+                android:id="@+id/calculating_progress"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:visibility="gone"
+		        android:indeterminate="true" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
