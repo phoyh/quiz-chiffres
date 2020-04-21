@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chiffres</string>
+    <string name="title_chiffres">Chiffres</string>
+    <string name="ok">OK</string>
+    <string name="go_calculate">Rechne aus!</string>
+    <string name="with_complex_ops">mit Potenz, Wurzel und Logarithmus</string>
+    <string name="input_numbers_hint">Benutzbare Zahlen (Leerzeichen dazwischen)</string>
+    <string name="output_number_hint">Zu errechnende Zahl</string>
+    <string name="no_solution_found">Nichts gefunden!</string>
+    <string name="wrong_input">Falsche Eingabe!</string>
+    <string name="only_close_to_target">Ich komme leider nur auf %d</string>
+    <string name="already_in_input">Aber %d gibt es schon!</string>
+
+</resources>
